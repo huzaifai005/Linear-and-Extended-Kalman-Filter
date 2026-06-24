@@ -1,0 +1,55 @@
+Filter,Category,Name,Mean_Error,Pass_1e-9
+LKF (Linear Kalman Filter),Joint,pelvis,0.0,YES
+LKF (Linear Kalman Filter),Joint,L5,0.0,YES
+LKF (Linear Kalman Filter),Joint,L3,0.0,YES
+LKF (Linear Kalman Filter),Joint,T12,0.0,YES
+LKF (Linear Kalman Filter),Joint,T8,0.0,YES
+LKF (Linear Kalman Filter),Joint,neck,0.0,YES
+LKF (Linear Kalman Filter),Joint,head,0.0,YES
+LKF (Linear Kalman Filter),Joint,shoulderRight,0.0,YES
+LKF (Linear Kalman Filter),Joint,upperArmRight,0.0,YES
+LKF (Linear Kalman Filter),Joint,forearmRight,0.0,YES
+LKF (Linear Kalman Filter),Joint,handRight,0.0,YES
+LKF (Linear Kalman Filter),Joint,shoulderLeft,0.0,YES
+LKF (Linear Kalman Filter),Joint,upperArmLeft,0.0,YES
+LKF (Linear Kalman Filter),Joint,forearmLeft,0.0,YES
+LKF (Linear Kalman Filter),Joint,handLeft,0.0,YES
+LKF (Linear Kalman Filter),Joint,upperLegRight,0.0,YES
+LKF (Linear Kalman Filter),Joint,lowerLegRight,0.0,YES
+LKF (Linear Kalman Filter),Joint,footRight,0.0,YES
+LKF (Linear Kalman Filter),Joint,toeRight,0.0,YES
+LKF (Linear Kalman Filter),Joint,upperLegLeft,0.0,YES
+LKF (Linear Kalman Filter),Joint,lowerLegLeft,0.0,YES
+LKF (Linear Kalman Filter),Joint,footLeft,0.0,YES
+LKF (Linear Kalman Filter),Joint,toeLeft,0.0,YES
+LKF (Linear Kalman Filter),State Component,position,0.0,YES
+LKF (Linear Kalman Filter),State Component,velocity,0.0,YES
+LKF (Linear Kalman Filter),State Component,acceleration,0.0,YES
+LKF (Linear Kalman Filter),State Component,jerk,0.0,YES
+EKF (Extended Kalman Filter),Joint,pelvis,0.0,YES
+EKF (Extended Kalman Filter),Joint,L5,0.0,YES
+EKF (Extended Kalman Filter),Joint,L3,0.0,YES
+EKF (Extended Kalman Filter),Joint,T12,0.0,YES
+EKF (Extended Kalman Filter),Joint,T8,0.0,YES
+EKF (Extended Kalman Filter),Joint,neck,0.0,YES
+EKF (Extended Kalman Filter),Joint,head,0.0,YES
+EKF (Extended Kalman Filter),Joint,shoulderRight,0.0,YES
+EKF (Extended Kalman Filter),Joint,upperArmRight,0.0,YES
+EKF (Extended Kalman Filter),Joint,forearmRight,0.0,YES
+EKF (Extended Kalman Filter),Joint,handRight,0.0,YES
+EKF (Extended Kalman Filter),Joint,shoulderLeft,0.0,YES
+EKF (Extended Kalman Filter),Joint,upperArmLeft,0.0,YES
+EKF (Extended Kalman Filter),Joint,forearmLeft,0.0,YES
+EKF (Extended Kalman Filter),Joint,handLeft,0.0,YES
+EKF (Extended Kalman Filter),Joint,upperLegRight,0.0,YES
+EKF (Extended Kalman Filter),Joint,lowerLegRight,0.0,YES
+EKF (Extended Kalman Filter),Joint,footRight,0.0,YES
+EKF (Extended Kalman Filter),Joint,toeRight,0.0,YES
+EKF (Extended Kalman Filter),Joint,upperLegLeft,0.0,YES
+EKF (Extended Kalman Filter),Joint,lowerLegLeft,0.0,YES
+EKF (Extended Kalman Filter),Joint,footLeft,0.0,YES
+EKF (Extended Kalman Filter),Joint,toeLeft,0.0,YES
+EKF (Extended Kalman Filter),State Component,position,0.0,YES
+EKF (Extended Kalman Filter),State Component,velocity,0.0,YES
+EKF (Extended Kalman Filter),State Component,acceleration,0.0,YES
+EKF (Extended Kalman Filter),State Component,jerk,0.0,YES

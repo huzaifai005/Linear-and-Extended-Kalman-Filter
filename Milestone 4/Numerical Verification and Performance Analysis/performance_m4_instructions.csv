@@ -1,0 +1,40 @@
+Filter,Operation,M3_insns,M4_insns,Ratio,Vectorised
+LKF,F*x (69 blocks),7728,5520,1.4×,Yes
+LKF,F*P (69² blocks),4265856,761760,5.6×,Yes
+LKF,symmetrize P_pred,379500,28464,13.3×,Yes
+LKF,transpose H→HT,414,276,1.5×,Yes
+LKF,P*HT,36793008,3427920,10.7×,Yes
+LKF,H*PHT,9198252,856980,10.7×,Yes
+LKF,S+R,552,45,12.3×,Yes
+LKF,symmetrize S,23460,1764,13.3×,Yes
+LKF,transpose PHT,1656,1104,1.5×,Yes
+LKF,K*y,133308,95220,1.4×,Yes
+LKF,x_pred+K*y,2208,175,12.6×,Yes
+LKF,K*H (IKH),36793008,3332700,11.0×,Yes
+LKF,IKH*P,147172032,13330800,11.0×,Yes
+LKF,transpose IKH,1656,1104,1.5×,Yes
+LKF,(IKH*P)*IKHT,147172032,13330800,11.0×,Yes
+LKF,K*R*KT (69 outer prods),152352,12075,12.6×,Yes
+LKF,P_upd add,2208,175,12.6×,Yes
+LKF,symmetrize P_upd,379500,28464,13.3×,Yes
+EKF,F*x (69 blocks),7728,5520,1.4×,Yes
+EKF,F*P (69² blocks),4265856,761760,5.6×,Yes
+EKF,symmetrize P_pred,379500,28464,13.3×,Yes
+EKF,transpose H→HT,414,276,1.5×,Yes
+EKF,P*HT,36793008,3427920,10.7×,Yes
+EKF,H*PHT,9198252,856980,10.7×,Yes
+EKF,S+R,552,45,12.3×,Yes
+EKF,symmetrize S,23460,1764,13.3×,Yes
+EKF,transpose PHT,1656,1104,1.5×,Yes
+EKF,K*y,133308,95220,1.4×,Yes
+EKF,x_pred+K*y,2208,175,12.6×,Yes
+EKF,K*H (IKH),36793008,3332700,11.0×,Yes
+EKF,IKH*P,147172032,13330800,11.0×,Yes
+EKF,transpose IKH,1656,1104,1.5×,Yes
+EKF,(IKH*P)*IKHT,147172032,13330800,11.0×,Yes
+EKF,K*R*KT (69 outer prods),152352,12075,12.6×,Yes
+EKF,P_upd add,2208,175,12.6×,Yes
+EKF,symmetrize P_upd,379500,28464,13.3×,Yes
+EKF,"h_full (23 joints, CORDIC)",0,0,N/A,No
+EKF,"jacobian_full (23 joints, div)",0,0,N/A,No
+EKF,wrap_angle (23 joints × 2),0,0,N/A,No
